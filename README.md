@@ -2,10 +2,10 @@
 
 ## Miembros del grupo LX-XXX-X (sustituir)
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. Morales Márquez, Diego
+2. Cabeza Curado, Hugo
+3. Muñoz Pereira, Jesús
+4. Morrondo Silva, Alejandro
 
 ## 1. Introducción al problema
 
