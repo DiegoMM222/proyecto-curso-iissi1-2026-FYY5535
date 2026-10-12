@@ -101,8 +101,10 @@ Por ello, diversas empresas y museos necesitan centralizar sus datos para compre
 - **Préstamo de piezas:** Cesión temporal de fósiles a otra institución para su estudio, exposición u otra finalidad.
 
 ### R
+<img src="imagenes/resto.jpeg" width="150" align="left">
 - **Registro de laboratorio:** Conjunto de datos que documenta los análisis, tratamientos y observaciones realizados sobre un fósil.
 - **Resto óseo:** Hueso o fragmento de hueso conservado de un organismo, que puede constituir un fósil.
+<br clear="left">
 
 ### T
 - **Taxonomía:** Disciplina científica que identifica, nombra y clasifica los seres vivos en grupos jerárquicos.
