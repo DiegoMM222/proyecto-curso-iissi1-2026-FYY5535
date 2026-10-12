@@ -101,15 +101,21 @@ Por ello, diversas empresas y museos necesitan centralizar sus datos para compre
 - **Préstamo de piezas:** Cesión temporal de fósiles a otra institución para su estudio, exposición u otra finalidad.
 
 ### R
-<img src="imagenes/resto.jpeg" width="150" align="left">
+<img src="imágenes/resto.jpeg" width="250" align="right">
+
 - **Registro de laboratorio:** Conjunto de datos que documenta los análisis, tratamientos y observaciones realizados sobre un fósil.
 - **Resto óseo:** Hueso o fragmento de hueso conservado de un organismo, que puede constituir un fósil.
-<br clear="left">
+<br clear="right">
 
 ### T
+<img src="imágenes/mapa.jpg" width="300" align="right">
+
 - **Taxonomía:** Disciplina científica que identifica, nombra y clasifica los seres vivos en grupos jerárquicos.
 - **Tratamiento de conservación:** Procedimiento aplicado a un fósil para estabilizarlo, protegerlo o frenar su deterioro.
 - **Trazabilidad de un fósil:** Capacidad de conocer el origen, los movimientos, los tratamientos y la ubicación de un fósil a lo largo de su historial.
+
+<br clear="right">
+
 <div align="center">
 Recurso donde visualizar y descargar los yacimientos paleontológicos del mundo entero.  
 <a href="https://paleobiodb.org/navigator/">
