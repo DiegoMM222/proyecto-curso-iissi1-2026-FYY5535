@@ -108,6 +108,13 @@ Por ello, diversas empresas y museos necesitan centralizar sus datos para compre
 - **Taxonomía:** Disciplina científica que identifica, nombra y clasifica los seres vivos en grupos jerárquicos.
 - **Tratamiento de conservación:** Procedimiento aplicado a un fósil para estabilizarlo, protegerlo o frenar su deterioro.
 - **Trazabilidad de un fósil:** Capacidad de conocer el origen, los movimientos, los tratamientos y la ubicación de un fósil a lo largo de su historial.
+<div align="center">
+Recurso donde visualizar y descargar los yacimientos paleontológicos del mundo entero.  
+<a href="https://paleobiodb.org/navigator/">
+  <strong> Enlace al mapa.</strong>
+</a>
+</div>
+
 
 ### Y
 - **Yacimiento paleontológico:** Lugar donde se encuentran fósiles u otras evidencias de organismos del pasado y que puede ser objeto de investigación o excavación.
