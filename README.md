@@ -518,7 +518,7 @@ Cada usuario solo podrá consultar la información para la que disponga de autor
 
 Las exposiciones deben estar relacionadas con los lugares y restos que correspondan según los registros de la base de datos. Su estado debe coincidir con la información almacenada.
 
-## 4.2. Mapa de historias de usuario (opcional)
+## 4.2. Mapa de historias de usuario
 
 ### 4.2. Mapa de historias de usuario
 
@@ -563,7 +563,7 @@ Las exposiciones deben estar relacionadas con los lugares y restos que correspon
 - Consultar lugar de exposición
 - Consultar estado de la exposición
 
-## 4.3. Requisitos no funcionales (opcional)
+## 4.3. Requisitos no funcionales
 
 **R.N.F.01. Usabilidad**
 
