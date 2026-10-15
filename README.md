@@ -1,6 +1,6 @@
 # Título Proyecto
 
-## Miembros del grupo L5-AM-2 (sustituir)
+## Miembros del grupo L5-AM-2
 
 1. Morales Márquez, Diego
 2. Cabeza Curado, Hugo
