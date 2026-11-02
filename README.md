@@ -50,561 +50,559 @@ Por ello, diversas empresas y museos necesitan centralizar sus datos para compre
 </table>
 
 
-
-## 2. Glosario de términos
-
-# Glosario de términos
-
-### A
-- **Almacén paleontológico:** Espacio destinado a guardar y conservar restos fósiles y otros materiales procedentes de excavaciones.
+# 2. Glosario de términos
 
 ### B
-- **Bitácora:** Registro en el que el arqueólogo documenta información y observaciones relacionadas con el desarrollo de una excavación o con un hallazgo.
+- **Bitácora:** Registro de información y observaciones relacionadas con el desarrollo de una excavación o con un hallazgo.
 
 ### C
-- **Campaña de excavación:** Conjunto de trabajos de excavación realizados durante un periodo determinado y con unos objetivos concretos.
-- **Catálogo de restos:** Registro organizado de fósiles y otros vestigios conservados, identificados mediante datos descriptivos y números de catálogo.
-- **Conservación paleontológica:** Conjunto de medidas destinadas a mantener los fósiles en buen estado y evitar su deterioro.
-- **Contexto del descubrimiento:** Información sobre las circunstancias y condiciones en las que se encontró un fósil.
+- **Clasificación taxonómica:** Asignación de un resto fósil a una categoría biológica, como familia, género o especie.
+- **Contexto original:** Información sobre las circunstancias geológicas, estratigráficas y ambientales en las que se encontró un fósil.
 
 ### D
-- **Dato biométrico:** Medida cuantitativa de una característica física de un organismo, como la longitud o anchura de un hueso.
 - **Degradación:** Proceso por el que un fósil pierde calidad, estabilidad o integridad debido a factores físicos, químicos o biológicos.
 
 ### E
-- **Estrato:** Capa diferenciada del terreno en la que puede localizarse un hallazgo arqueológico.
 - **Estado de conservación:** Condición física en la que se encuentra un fósil, incluyendo posibles fracturas, erosión o deformaciones.
-- **Exposición temporal:** Presentación de piezas paleontológicas en un museo durante un periodo limitado.
-- **Excavación paleontológica:** Trabajo de campo mediante el que se localizan, documentan y extraen restos fósiles siguiendo procedimientos científicos.
-
-### F
-- **Fósil:** Resto, huella o evidencia de un organismo del pasado que se ha conservado de forma natural.
-
-### H
-- **Hallazgo paleontológico:** Resto fósil u otra evidencia de organismos del pasado localizada durante una investigación o excavación.
-
-### I
-- **Identificación taxonómica:** Proceso de determinar a qué grupo biológico pertenece un organismo a partir de sus características.
+- **Estado de identificación:** Situación de una clasificación taxonómica, que puede ser provisional o confirmada.
+- **Estrato:** Capa diferenciada del terreno en la que puede localizarse un hallazgo.
 
 ### M
-- **Medición morfológica:** Medición de las dimensiones o características de la forma de un fósil, como la longitud, el grosor o la curvatura de un hueso.
-- **Montaje estructural:** Composición de varios restos fósiles para representar una estructura anatómica o un organismo en una exposición.
+- **Medición biométrica:** Registro de las dimensiones y características físicas de un resto fósil.
+- **Montaje estructural:** Composición de varios restos fósiles para representar una estructura anatómica o un organismo.
 - **Museografía:** Disciplina relacionada con el diseño, la organización y la presentación de colecciones y exposiciones en museos.
 
-### N
-- **Número de catálogo:** Código asignado a una pieza paleontológica para identificarla y distinguirla de los demás restos de una colección.
-
 ### P
-- **Paleontología:** Ciencia que estudia los seres vivos del pasado a través de sus fósiles y otras evidencias.
-- **Patología:** Alteración o lesión que puede observarse en un resto fósil y que puede aportar información sobre enfermedades, traumatismos o anomalías del organismo.
-- **Preparación paleontológica:** Conjunto de técnicas utilizadas para limpiar, estabilizar y preparar los fósiles para facilitar su estudio y conservación.
-- **Préstamo de piezas:** Cesión temporal de fósiles a otra institución para su estudio, exposición u otra finalidad.
+- **Patología:** Alteración o lesión observable en un resto fósil que puede aportar información sobre enfermedades, traumatismos o anomalías.
 
 ### R
-<img src="imágenes/resto.jpeg" width="250" align="right">
-
-- **Registro de laboratorio:** Conjunto de datos que documenta los análisis, tratamientos y observaciones realizados sobre un fósil.
 - **Resto óseo:** Hueso o fragmento de hueso conservado de un organismo, que puede constituir un fósil.
-<br clear="right">
+
 
 ### T
-<img src="imágenes/mapa.jpg" width="300" align="right">
-
+- **Trazabilidad:** Capacidad de conocer la procedencia, los movimientos, los tratamientos y la ubicación de un fósil durante su historial.
 - **Taxonomía:** Disciplina científica que identifica, nombra y clasifica los seres vivos en grupos jerárquicos.
-- **Tratamiento de conservación:** Procedimiento aplicado a un fósil para estabilizarlo, protegerlo o frenar su deterioro.
-- **Trazabilidad de un fósil:** Capacidad de conocer el origen, los movimientos, los tratamientos y la ubicación de un fósil a lo largo de su historial.
 
-<br clear="right">
 
-<div align="center">
-Recurso donde visualizar y descargar los yacimientos paleontológicos del mundo entero.  
-<a href="https://paleobiodb.org/navigator/">
-  <strong> Enlace al mapa.</strong>
-</a>
-</div>
-
+# 3. Visión general del sistema
 
-### Y
-- **Yacimiento paleontológico:** Lugar donde se encuentran fósiles u otras evidencias de organismos del pasado y que puede ser objeto de investigación o excavación.
+## 3.1. Requisitos generales
 
-## 3. Visión general del sistema
-
-### 3.1. Requisitos generales
-Administrar y gestionar a gran escala los museos y empresas encargadas de las excavaciones paleontológicas, más concretamente, la base de datos se centra en gestionar datos de tanto como cada empresa y o museo como de sus empleados, así como incluye un catálogo de todos los hallazgos y un registro detallado incluyendo el seguimiento de cada pieza y toda la información relacionada con cada una de estas. De forma enumerada dispondremos de:
+El sistema tiene como finalidad centralizar y gestionar la información relacionada con las instituciones, el personal, los yacimientos y las actividades paleontológicas, permitiendo mantener un registro completo de los hallazgos desde su descubrimiento hasta su conservación, análisis y posible exposición pública.
 
-- Gestión de museos y empresas.
-- Gestión de excavaciones.
-- Gestión de yacimientos.
-- Gestión de hallazgos.
-- Gestión de personal.
-- Gestión de exposiciones.
-- Consulta de información detallada acerca de los vestigios.
+Los requisitos generales del sistema se describen mediante las siguientes historias de usuario:
 
-### 3.2. Usuarios del sistema
-- Paleontólogo de campo: Los encargados de realizar la excavación en distintas zonas especificadas para encontrar los fósiles. Tiene permisos para modificar las campañas de excavación, hallazgos preliminares y yacimientos.
-- Preparador paleontólogo/a: Se encarga de analizar el fósil encontrado y de identificar sus propiedades como del animal procedente, la edad del vestigio, estado de preservación, etc. Además indica donde pueden haber fósiles tras análisis de la zona. Tiene permisos para modificar los registros del laboratorio y los tratamientos de excavación.
-- Conservador de colecciones: Es el responsable de analizar la evolución del fósil una vez esté limpio y guardado, y realiza el mantenimiento continuo para evitar la degradación de los vestigios. También es el encargado de especificar los principales datos del fósil, su ubicación y los préstamos a otras instituciones. Tiene permisos para modificar el número de catálogo, su taxonomía, la ubicación del almacén y los préstamos.
-- Investigador científico: Se encarga del análisis morfológico para añadir tablas de mediciones biométricas para hacer escaneos y crear modelos en 3D. Tiene permisos para modificar las mediciones morfológicas, los archivos multimedia y la bibliografía.
-- Museógrafo: Su función es seleccionar los fósiles para distintos tipos de exposiciones en un museo y del montaje si consiste en varios huesos dispersos de un mismo animal. Tiene permisos para modificar las exposiciones temporales y montajes estructurales.
-- Administrador de la base de datos: Es quien crea los usuarios anteriormente mencionados en la base de datos, estructura las tablas y realiza copias de seguridad,  y tiene todos los permisos de la base de datos.
-
-## 4. Catálogo de requisitos
-
-### 4.1. Requisitos funcionales
-#### R.F.01. Consulta de yacimientos
-
-Como paleontólogo de campo,  
-quiero consultar los yacimientos registrados,  
-para conocer su ubicación, características e información general.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de los yacimientos registrados.
-- Se debe poder consultar la información detallada de cada yacimiento, incluyendo su identificador, nombre, localización y descripción.
-- Se deben mostrar las campañas y excavaciones relacionadas con cada yacimiento, cuando existan.
-- Se debe aplicar la regla de negocio R.N.01.
-
-#### R.F.02. Consulta de campañas de excavación
-
-Como paleontólogo de campo,  
-quiero consultar las campañas de excavación,  
-para conocer sus fechas, objetivos, participantes y estado.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de las campañas registradas.
-- Se debe poder consultar la información detallada de cada campaña.
-- Se deben mostrar el yacimiento asociado, las fechas y el personal participante, cuando estén registrados.
-- Se debe aplicar la regla de negocio R.N.02.
-
-#### R.F.03. Consulta del personal participante
-
-Como paleontólogo de campo,  
-quiero consultar el personal que ha participado en un yacimiento o campaña,  
-para conocer los profesionales implicados y las funciones que desempeñaron.
-
-**Prueba de aceptación**
-- Se debe mostrar el personal relacionado con el yacimiento o campaña seleccionados.
-- Se debe indicar el perfil profesional y la función desempeñada, cuando estén registrados.
-- Se debe poder consultar la participación de cada trabajador en diferentes campañas.
-- Se debe aplicar la regla de negocio R.N.03.
-
-#### R.F.04. Consulta de hallazgos
-
-Como paleontólogo de campo,  
-quiero consultar los hallazgos registrados,  
-para conocer las piezas descubiertas durante las excavaciones.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de los hallazgos registrados.
-- Cada hallazgo debe mostrar su identificador, fecha de descubrimiento y yacimiento de procedencia, cuando estos datos estén disponibles.
-- Se debe poder consultar la ficha detallada de cada hallazgo.
-- Se debe aplicar la regla de negocio R.N.01.
-
-#### R.F.05. Consulta de la procedencia de los hallazgos
-
-Como conservador de colecciones,  
-quiero consultar la procedencia de los hallazgos,  
-para conocer el lugar y el contexto en el que fueron descubiertos.
-
-**Prueba de aceptación**
-- Se debe mostrar el yacimiento de procedencia del hallazgo.
-- Se deben consultar la campaña y la excavación relacionadas, cuando estén registradas.
-- Se deben mostrar los datos de localización y contexto disponibles.
-- Se debe aplicar la regla de negocio R.N.02.
-
-#### R.F.06. Consulta de la información del descubrimiento
-
-Como investigador científico,  
-quiero consultar la información asociada al descubrimiento de una pieza,  
-para estudiar las circunstancias en las que fue encontrada.
-
-**Prueba de aceptación**
-- Se debe mostrar la fecha del descubrimiento y el responsable, cuando estén registrados.
-- Se debe poder consultar la descripción del contexto geológico o estratigráfico, cuando esté disponible.
-- Se deben mostrar las observaciones y los documentos multimedia asociados, si existen.
-- Se debe aplicar la regla de negocio R.N.02.
-
-#### R.F.07. Consulta de restos óseos
-
-Como preparador paleontólogo,  
-quiero consultar los restos óseos registrados,  
-para conocer sus características y su estado de conservación.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de los restos óseos catalogados.
-- Cada resto debe incluir su identificador o número de catálogo, descripción, estado de conservación y ubicación, cuando estén disponibles.
-- Se debe poder consultar la información detallada de cada resto.
-- Se deben mostrar las fotografías y datos detallados como las dimensiones.
-- Se debe aplicar la regla de negocio R.N.04.
+**R.G.01. Gestión de instituciones**
 
-#### R.F.08. Consulta de la clasificación taxonómica
-
-Como investigador científico,  
-quiero consultar la clasificación taxonómica de los restos,  
-para conocer el grupo biológico al que pertenecen.
-
-**Prueba de aceptación**
-- Se debe mostrar la clasificación taxonómica registrada para cada resto identificado.
-- Se deben mostrar los niveles taxonómicos disponibles, como familia, género y especie.
-- Se debe indicar si la identificación es provisional o está confirmada, cuando ese dato esté registrado.
-- Los restos sin clasificación confirmada deben aparecer como pendientes o sin identificar.
-- Se debe aplicar la regla de negocio R.N.05.
-
-#### R.F.09. Consulta de patologías y alteraciones
-
-Como investigador científico,  
-quiero consultar las patologías y alteraciones documentadas en los restos,  
-para estudiar posibles enfermedades, lesiones o modificaciones.
-
-**Prueba de aceptación**
-- Se deben mostrar las patologías y alteraciones asociadas a cada resto.
-- Se debe incluir su descripción y localización anatómica, cuando estén disponibles.
-- Se deben mostrar las observaciones científicas y evidencias multimedia asociadas, si existen.
-- Se debe aplicar la regla de negocio R.N.05.
-
-#### R.F.10. Consulta de museos
-
-Como usuario del sistema,  
-quiero consultar los museos registrados,  
-para conocer sus datos identificativos y las colecciones que custodian.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de los museos registrados.
-- Cada museo debe incluir su nombre, localización y datos de contacto disponibles.
-- Se deben consultar las colecciones y exposiciones asociadas, cuando existan.
-- Se debe aplicar la regla de negocio R.N.01.
-
-#### R.F.11. Consulta de almacenes
-
-Como conservador de colecciones,  
-quiero consultar los almacenes registrados,  
-para conocer dónde se encuentran custodiados los restos.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de los almacenes registrados.
-- Se debe consultar la institución responsable y la localización de cada almacén.
-- Se deben mostrar los restos custodiados en cada almacén, cuando estén registrados.
-- Se debe aplicar la regla de negocio R.N.06.
-
-#### R.F.12. Consulta de empresas
-
-Como usuario del sistema,  
-quiero consultar las empresas registradas,  
-para conocer las entidades responsables de las expediciones y actividades relacionadas con los yacimientos.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de las empresas registradas.
-- Cada empresa debe incluir su nombre, identificación y datos de contacto disponibles.
-- Se deben consultar las campañas y excavaciones asociadas a cada empresa, cuando existan.
-- Se debe aplicar la regla de negocio R.N.01.
-
-#### R.F.13. Consulta de excavaciones
-
-Como paleontólogo de campo,  
-quiero consultar las excavaciones registradas,  
-para conocer las intervenciones realizadas y sus resultados.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de las excavaciones registradas.
-- Se debe poder consultar la localización, las fechas y la campaña asociada a cada excavación.
-- Se deben consultar los hallazgos relacionados con cada intervención.
-- Se debe aplicar la regla de negocio R.N.02.
-
-#### R.F.14. Consulta de materiales de excavación
-
-Como paleontólogo de campo,  
-quiero consultar los materiales y herramientas registrados en las excavaciones,  
-para conocer los recursos utilizados durante las intervenciones.
-
-**Prueba de aceptación**
-- Se deben mostrar los materiales y herramientas registrados.
-- Se debe consultar su descripción y relación con la excavación correspondiente.
-- Se debe mostrar la cantidad y disponibilidad, cuando estos datos estén almacenados.
-- Se debe aplicar la regla de negocio R.N.03.
-
-#### R.F.15. Consulta de trabajadores de las excavaciones
-
-Como usuario del sistema,  
-quiero consultar los trabajadores vinculados a una excavación,  
-para conocer quiénes participaron y qué funciones desempeñaron.
-
-**Prueba de aceptación**
-- Se debe mostrar el personal asociado a la excavación seleccionada.
-- Se debe indicar el perfil profesional y la función desempeñada, cuando estén registrados.
-- Se deben poder consultar las campañas en las que ha participado cada trabajador.
-- Se debe aplicar la regla de negocio R.N.03.
-
-#### R.F.16. Consulta de datos del personal
-
-Como administrador de la base de datos,  
-quiero consultar los datos del personal registrado,  
-para identificar a los profesionales y conocer su vinculación con el sistema.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado del personal registrado.
-- Se debe poder consultar la información identificativa y profesional autorizada.
-- Se debe mostrar el perfil profesional y la institución a la que pertenece, cuando corresponda.
-- Se debe aplicar la regla de negocio R.N.07.
-
-#### R.F.17. Consulta de instituciones y centros de trabajo
-
-Como usuario del sistema,  
-quiero consultar las instituciones y centros de trabajo asociados al personal,  
-para conocer su vinculación profesional.
-
-**Prueba de aceptación**
-- Se debe poder consultar la institución asociada a cada trabajador.
-- Se deben mostrar los centros de trabajo registrados, cuando existan.
-- Se debe consultar el personal vinculado a una institución determinada.
-- Se debe aplicar la regla de negocio R.N.07.
-
-#### R.F.18. Consulta de exposiciones
-
-Como museógrafo,  
-quiero consultar las exposiciones registradas,  
-para conocer sus características y los restos que forman parte de ellas.
-
-**Prueba de aceptación**
-- Se debe mostrar un listado de las exposiciones registradas.
-- Cada exposición debe incluir su nombre, descripción, fechas y estado, cuando estén disponibles.
-- Se debe consultar el catálogo de restos asociados a cada exposición.
-- Se debe aplicar la regla de negocio R.N.08.
-
-#### R.F.19. Consulta de los lugares de exposición
-
-Como museógrafo,  
-quiero consultar los lugares donde se encuentran las exposiciones,  
-para conocer su ubicación física.
-
-**Prueba de aceptación**
-- Se debe mostrar la institución y el espacio expositivo asociados a cada exposición.
-- Se deben consultar la sala, el edificio y la ubicación concreta, cuando estén registrados.
-- Se debe poder consultar qué exposiciones están asociadas a un lugar determinado.
-- Se debe aplicar la regla de negocio R.N.08.
-
-#### R.F.20. Consulta del estado de las exposiciones
-
-Como usuario del sistema,  
-quiero consultar el estado de las exposiciones,  
-para conocer si están planificadas, activas, finalizadas o suspendidas.
-
-**Prueba de aceptación**
-- Se debe mostrar el estado registrado de cada exposición.
-- Se deben consultar las fechas de inicio y finalización previstas o reales, cuando estén disponibles.
-- El estado mostrado debe corresponder con la información almacenada.
-- Se debe aplicar la regla de negocio R.N.08.
+Como administrador de la base de datos, quiero gestionar la información de museos y empresas, incluyendo sus identificadores, nombres, datos de contacto y tipo de institución, para mantener un registro organizado de las entidades que participan en las actividades paleontológicas.
+
+**R.G.02. Gestión de yacimientos**
+
+Como paleontólogo de campo, quiero gestionar los yacimientos paleontológicos, incluyendo su identificador, nombre, localización geográfica y descripción geológica, para disponer de información centralizada sobre los lugares de investigación y excavación.
+
+**R.G.03. Gestión de campañas y excavaciones**
+
+Como paleontólogo de campo, quiero gestionar las campañas asociadas a cada yacimiento, incluyendo sus fechas, objetivos y estado, así como las excavaciones que se realizan dentro de ellas, para organizar y documentar las intervenciones de campo.
+
+**R.G.04. Gestión de hallazgos**
+
+Como paleontólogo de campo, quiero registrar y consultar los hallazgos realizados durante las excavaciones, incluyendo su fecha de descubrimiento, contexto original y responsable, para conservar la información sobre las circunstancias de cada descubrimiento.
+
+**R.G.05. Gestión del personal**
+
+Como administrador de la base de datos, quiero gestionar los datos identificativos, perfiles profesionales e instituciones de pertenencia del personal, para controlar los usuarios del sistema y sus funciones en las actividades paleontológicas.
+
+**R.G.06. Gestión de recursos de excavación**
+
+Como paleontólogo de campo, quiero consultar y gestionar los materiales y herramientas utilizados durante las excavaciones, incluyendo su descripción y cantidad disponible, para controlar los recursos empleados en las intervenciones.
+
+**R.G.07. Gestión del catálogo de restos**
+
+Como conservador de colecciones, quiero gestionar los restos óseos procedentes de los hallazgos, incluyendo su número de catálogo, descripción, estado de conservación y ubicación actual, para mantener un catálogo completo y garantizar su identificación y seguimiento.
+
+**R.G.08. Gestión de análisis científicos**
+
+Como investigador científico, quiero gestionar las clasificaciones taxonómicas, patologías y mediciones biométricas asociadas a los restos, incluyendo sus niveles de identificación, descripciones, localizaciones anatómicas y datos métricos, para documentar sus características científicas.
+
+**R.G.09. Gestión de almacenes y movimientos**
+
+Como conservador de colecciones, quiero gestionar los almacenes y registrar los movimientos de entrada, salida y traslado de los restos fósiles, incluyendo sus fechas y tipos de movimiento, para conocer su ubicación vigente y mantener su historial de custodia.
+
+**R.G.10. Gestión de exposiciones y montajes**
+
+Como museógrafo, quiero gestionar las exposiciones, incluyendo su nombre, fechas, estado, restos exhibidos y montajes estructurales asociados, para organizar la presentación pública de las colecciones paleontológicas.
+
+**R.G.11. Consulta de información paleontológica**
+
+Como usuario del sistema, quiero realizar consultas sobre yacimientos, campañas, hallazgos, restos fósiles, instituciones y exposiciones mediante diferentes criterios de búsqueda, para obtener información específica y facilitar el acceso al conocimiento paleontológico.
+
+## 3.2. Usuarios del sistema
+
+- **Paleontólogo de campo:** Gestiona la información de yacimientos, campañas, excavaciones y hallazgos, además de consultar el personal participante y los materiales empleados.
+- **Preparador paleontólogo:** Registra y consulta información relacionada con la preparación y el análisis inicial de los restos fósiles.
+- **Conservador de colecciones:** Gestiona la catalogación, conservación, ubicación y movimientos de los restos fósiles.
+- **Investigador científico:** Consulta y registra clasificaciones taxonómicas, patologías, mediciones biométricas y documentación científica.
+- **Museógrafo:** Gestiona exposiciones, selecciona los restos que se exhiben y organiza los montajes estructurales.
+- **Administrador de la base de datos:** Gestiona los usuarios, las instituciones, los permisos y el mantenimiento de la base de datos.
+
+
+# 4. Catálogo de requisitos
+
+## 4.1. Requisitos funcionales
+
+### Gestión de yacimientos y campañas
+
+**R.F.01. Consulta de yacimientos**
+
+Como paleontólogo de campo, quiero consultar los yacimientos registrados, incluyendo su identificador, nombre, localización geográfica, descripción y las campañas y excavaciones asociadas, para conocer sus características y las actividades realizadas en ellos.
+
+**R.F.02. Consulta de campañas de excavación**
+
+Como paleontólogo de campo, quiero consultar las campañas registradas, incluyendo su identificador, fechas de inicio y finalización, objetivos, estado, yacimiento asociado y personal participante, para conocer la planificación y el desarrollo de los trabajos.
+
+**R.F.03. Consulta del personal participante**
+
+Como paleontólogo de campo, quiero consultar los profesionales que han participado en un yacimiento, campaña o excavación, incluyendo sus datos identificativos, perfil profesional y función desempeñada, para conocer los integrantes de los equipos de trabajo.
+
+### Gestión de hallazgos y restos
+
+**R.F.04. Consulta de hallazgos**
+
+Como paleontólogo de campo, quiero consultar los hallazgos registrados, incluyendo su identificador, fecha de descubrimiento, contexto original, responsable y excavación de procedencia, para conocer las evidencias localizadas durante las intervenciones.
+
+**R.F.05. Consulta de la procedencia de los hallazgos**
+
+Como conservador de colecciones, quiero consultar la procedencia de un hallazgo, incluyendo su yacimiento, campaña, excavación y contexto original, para conocer las circunstancias geográficas y estratigráficas de su descubrimiento.
+
+**R.F.06. Consulta de la información del descubrimiento**
+
+Como investigador científico, quiero consultar la fecha de descubrimiento, el responsable, las observaciones y el contexto geológico y estratigráfico de un hallazgo, para estudiar las circunstancias en las que se localizó una pieza.
+
+**R.F.07. Consulta de restos óseos**
+
+Como preparador paleontólogo, quiero consultar los restos óseos catalogados, incluyendo su identificador, número de catálogo, descripción, estado de conservación, ubicación actual, hallazgo de procedencia y datos científicos asociados, para conocer sus características y su situación actual.
+
+**R.F.08. Consulta de la clasificación taxonómica**
+
+Como investigador científico, quiero consultar la clasificación taxonómica de los restos, incluyendo los niveles de familia, género y especie y el estado de identificación, para conocer el grupo biológico al que pertenecen y diferenciar las identificaciones provisionales de las confirmadas.
+
+**R.F.09. Consulta de patologías y mediciones biométricas**
+
+Como investigador científico, quiero consultar las patologías y mediciones biométricas de los restos, incluyendo las descripciones de las lesiones, sus localizaciones anatómicas, dimensiones y datos métricos asociados, para estudiar sus características morfológicas y posibles alteraciones.
+
+### Gestión de instituciones y almacenes
+
+**R.F.10. Consulta de museos**
+
+Como usuario del sistema, quiero consultar los museos registrados, incluyendo su identificador, nombre, datos de contacto, colecciones y espacios expositivos, para conocer las instituciones que custodian y exponen restos paleontológicos.
+
+**R.F.11. Consulta de almacenes**
+
+Como conservador de colecciones, quiero consultar los almacenes registrados, incluyendo su identificador, localización, institución responsable y restos custodiados, para conocer los espacios destinados a la conservación de las colecciones.
+
+**R.F.12. Consulta de empresas**
+
+Como usuario del sistema, quiero consultar las empresas registradas, incluyendo su identificador, nombre, datos de contacto, campañas organizadas y personal vinculado, para conocer las entidades que participan en las actividades paleontológicas.
+
+### Gestión de excavaciones
+
+**R.F.13. Consulta de excavaciones**
+
+Como paleontólogo de campo, quiero consultar las excavaciones registradas, incluyendo su identificador, localización concreta, fechas de intervención, campaña asociada y hallazgos obtenidos, para conocer las intervenciones realizadas en cada yacimiento.
+
+**R.F.14. Consulta de materiales de excavación**
+
+Como paleontólogo de campo, quiero consultar los materiales y herramientas utilizados en las excavaciones, incluyendo su identificador, descripción y cantidad disponible, para conocer los recursos empleados durante las intervenciones.
+
+**R.F.15. Consulta de trabajadores de las excavaciones**
+
+Como usuario del sistema, quiero consultar los trabajadores vinculados a una excavación, incluyendo sus datos identificativos, perfil profesional y función desempeñada, para conocer quiénes participaron en cada intervención.
+
+### Gestión del personal
+
+**R.F.16. Consulta de datos del personal**
+
+Como administrador de la base de datos, quiero consultar los datos identificativos y profesionales del personal registrado, incluyendo su identificador, nombre, apellidos, perfil profesional e institución de pertenencia, para gestionar los usuarios y sus vinculaciones.
+
+**R.F.17. Consulta de instituciones y centros de trabajo**
+
+Como usuario del sistema, quiero consultar las instituciones a las que pertenece el personal, incluyendo sus datos identificativos y tipo de institución, para conocer la vinculación profesional de los trabajadores.
+
+### Gestión de exposiciones
+
+**R.F.18. Consulta de exposiciones**
+
+Como museógrafo, quiero consultar las exposiciones registradas, incluyendo su identificador, nombre, fechas, estado, restos exhibidos y montajes estructurales asociados, para conocer su contenido y organización.
+
+**R.F.19. Consulta de los lugares de exposición**
+
+Como museógrafo, quiero consultar los espacios expositivos asociados a los museos y sus exposiciones, incluyendo la sala, el edificio y la localización correspondiente, para conocer dónde se encuentran expuestas las colecciones.
+
+**R.F.20. Consulta del estado de las exposiciones**
+
+Como usuario del sistema, quiero consultar el estado de las exposiciones y sus fechas de inicio y finalización, para conocer si se encuentran planificadas, activas, finalizadas o suspendidas.
+
+### Consultas específicas
+
+**R.F.21. Consulta de dinosaurios por procedencia geográfica**
+
+Como investigador científico, quiero consultar los restos fósiles identificados como dinosaurios encontrados en un país o región determinada, utilizando la clasificación taxonómica y la localización de sus yacimientos de procedencia, para estudiar su distribución geográfica.
+
+**R.F.22. Consulta del número de fósiles por museo**
+
+Como conservador de colecciones, quiero consultar el número total de restos fósiles custodiados por cada museo, teniendo en cuenta sus almacenes y las ubicaciones vigentes de los restos, para conocer el volumen de sus colecciones.
+
+**R.F.23. Consulta de restos por especie**
+
+Como investigador científico, quiero consultar todos los restos fósiles asociados a una especie determinada, incluyendo sus números de catálogo, procedencias y estados de conservación, para comparar los ejemplares identificados.
+
+**R.F.24. Consulta de hallazgos por yacimiento y periodo**
+
+Como paleontólogo de campo, quiero consultar los hallazgos registrados en un yacimiento durante un intervalo de fechas determinado, incluyendo su fecha de descubrimiento y excavación de procedencia, para analizar los resultados de las intervenciones.
+
+**R.F.25. Consulta de restos por exposición**
+
+Como museógrafo, quiero consultar los restos fósiles que forman parte de una exposición determinada, incluyendo sus números de catálogo y montajes estructurales asociados, para conocer el contenido de cada muestra.
+
+**R.F.26. Consulta del historial de movimientos de un resto**
+
+Como conservador de colecciones, quiero consultar los movimientos registrados de un resto fósil, incluyendo su fecha de entrada, fecha de salida, tipo de movimiento y almacén de origen o destino, para conocer su historial de custodia.
+
 
 ## 4.1.1. Requisitos de información
 
-##### R.I.01. Información de los yacimientos
+### R.I.01. Información de los yacimientos
 
-Como paleontólogo de campo,  
-quiero consultar la información identificativa y geográfica de los yacimientos,  
-para conocer su localización y características.
+Como paleontólogo de campo, quiero consultar y almacenar la información identificativa y geográfica de los yacimientos, para conocer sus características y localización.
 
-**Prueba de aceptación**
-- Cada yacimiento debe disponer de un identificador único.
-- Se deben registrar el nombre, la localización y la descripción del yacimiento.
-- Se deben poder relacionar los yacimientos con sus campañas y excavaciones.
+Los atributos que se deben almacenar son:
 
-##### R.I.02. Información de campañas y excavaciones
+- `idYacimiento`: Identificador único del yacimiento.
+- `nombre`: Nombre asignado al yacimiento.
+- `localizacion`: Coordenadas geográficas, región o ubicación física.
+- `descripcion`: Características geológicas y estratigráficas del lugar.
 
-Como paleontólogo de campo,  
-quiero consultar la información de las campañas y excavaciones,  
-para conocer las intervenciones realizadas.
+### R.I.02. Información de campañas y excavaciones
 
-**Prueba de aceptación**
-- Cada campaña y excavación debe disponer de un identificador único.
-- Se deben registrar las fechas, el estado y el yacimiento asociado, cuando corresponda.
-- Se debe poder relacionar el personal participante con las campañas y excavaciones.
+Como paleontólogo de campo, quiero consultar y almacenar la información de las campañas y excavaciones, para documentar las intervenciones realizadas.
 
-##### R.I.03. Información de hallazgos y restos fósiles
+Los atributos de Campaña son:
 
-Como conservador de colecciones,  
-quiero consultar los datos identificativos y descriptivos de los hallazgos y restos,  
-para realizar su seguimiento desde el descubrimiento hasta su ubicación actual.
+- `idCampana`: Identificador único de la campaña.
+- `fechas`: Fecha de inicio y fecha de finalización.
+- `objetivos`: Metas científicas de la campaña.
+- `estado`: Situación actual de la campaña.
 
-**Prueba de aceptación**
-- Cada hallazgo y resto catalogado debe disponer de un identificador único.
-- Se deben registrar la procedencia, la fecha de descubrimiento y la descripción disponibles.
-- Se deben poder relacionar los restos catalogados con sus hallazgos de origen.
-- Se debe poder consultar la ubicación actual y el historial de movimientos, cuando estén registrados.
+Los atributos de Excavación son:
 
-##### R.I.04. Información científica y taxonómica
+- `idExcavacion`: Identificador único de la excavación.
+- `localizacionConcreta`: Sector, cuadrícula o punto de intervención.
+- `fechasIntervencion`: Fechas en las que se realizaron los trabajos.
 
-Como investigador científico,  
-quiero consultar los datos taxonómicos, morfológicos y patológicos de los restos,  
-para estudiar sus características.
+### R.I.03. Información de hallazgos y restos fósiles
 
-**Prueba de aceptación**
-- Se debe poder asociar una clasificación taxonómica a cada resto identificado.
-- Se deben registrar las mediciones, observaciones y patologías documentadas.
-- Se deben poder asociar fotografías, documentos, escaneos y modelos tridimensionales a los restos correspondientes.
+Como conservador de colecciones, quiero consultar y almacenar los datos identificativos y descriptivos de los hallazgos y restos fósiles, para realizar su seguimiento desde el descubrimiento hasta su ubicación actual.
 
-##### R.I.05. Información de museos y empresas
+Los atributos de Hallazgo son:
 
-Como usuario del sistema,  
-quiero consultar la información de las instituciones registradas,  
-para conocer sus datos identificativos y las actividades en las que participan.
+- `idHallazgo`: Identificador único del hallazgo.
+- `fechaDescubrimiento`: Fecha y hora aproximada del descubrimiento.
+- `contextoOriginal`: Circunstancias geológicas y estratigráficas.
+- `responsableDescubrimiento`: Personal o equipo responsable del descubrimiento.
 
-**Prueba de aceptación**
-- Cada museo y empresa debe disponer de un identificador único.
-- Se deben registrar el nombre, el tipo de institución y los datos de contacto pertinentes.
-- Se deben poder relacionar las instituciones con el personal, los almacenes y las actividades correspondientes.
+Los atributos de RestoÓseo son:
 
-##### R.I.06. Información del personal
+- `idResto`: Identificador único del resto.
+- `descripcion`: Descripción morfológica y física.
+- `estadoConservacion`: Condición física del resto.
+- `ubicacionActual`: Ubicación vigente del resto.
+- `numeroCatalogo`: Código alfanumérico asignado a la pieza.
 
-Como usuario autorizado,  
-quiero consultar los datos profesionales del personal,  
-para conocer sus perfiles y participación en las actividades.
+### R.I.04. Información científica y taxonómica
 
-**Prueba de aceptación**
-- Cada trabajador debe disponer de un identificador único.
-- Se deben registrar los datos identificativos y profesionales necesarios.
-- Se deben poder consultar los perfiles, las instituciones y las participaciones registradas, respetando los permisos de acceso.
+Como investigador científico, quiero consultar y almacenar los datos taxonómicos, morfológicos y patológicos de los restos, para estudiar sus características científicas.
 
-##### R.I.07. Información de almacenes y ubicaciones
+Los atributos de ClasificaciónTaxonómica son:
 
-Como conservador de colecciones,  
-quiero consultar la información de los almacenes y ubicaciones,  
-para conocer dónde se custodian los restos.
+- `idTaxonomia`: Identificador de la clasificación.
+- `nivelTaxonomico`: Nivel biológico asignado, como familia, género o especie.
+- `estadoIdentificacion`: Indica si la identificación es provisional o confirmada.
 
-**Prueba de aceptación**
-- Cada almacén debe disponer de un identificador único.
-- Se deben registrar la institución responsable y los datos de localización.
-- Se debe poder asociar cada resto a su ubicación registrada.
+Los atributos de Patología son:
 
-##### R.I.08. Información de exposiciones
+- `idPatologia`: Identificador de la patología.
+- `descripcion`: Descripción de la alteración o lesión.
+- `localizacionAnatomica`: Parte del hueso donde se encuentra.
 
-Como museógrafo,  
-quiero consultar los datos de las exposiciones,  
-para conocer su planificación, ubicación y contenido.
+Los atributos de MediciónBiométrica son:
 
-**Prueba de aceptación**
-- Cada exposición debe disponer de un identificador único.
-- Se deben registrar su nombre, fechas, estado y lugar de exposición.
-- Se deben poder relacionar los restos expuestos con las exposiciones correspondientes.
+- `idMedicion`: Identificador de la medición.
+- `dimensiones`: Valores de longitud, anchura, grosor y otras dimensiones.
+- `datosMetricos`: Archivos, escaneos 3D y tablas métricas asociadas.
+
+### R.I.05. Información de instituciones y personal
+
+Como administrador de la base de datos, quiero consultar y almacenar la información de las instituciones y del personal vinculado, para conocer sus datos identificativos y profesionales.
+
+Los atributos de Institución son:
+
+- `idInstitucion`: Identificador único.
+- `nombre`: Denominación oficial de la institución.
+- `datosContacto`: Información de contacto y localización.
+- `tipoInstitucion`: Tipo de entidad, como museo o empresa.
+
+Los atributos específicos de Museo son:
+
+- `colecciones`: Fondos y colecciones científicas custodiadas.
+- `espaciosExpositivos`: Salas y espacios destinados a exposiciones.
+
+Los atributos específicos de Empresa son:
+
+- `campañasYExcavaciones`: Actividades organizadas o financiadas.
+- `personalVinculado`: Profesionales asociados a la empresa.
+
+Los atributos de Personal son:
+
+- `idTrabajador`: Identificador único del trabajador.
+- `datosIdentificativos`: Nombre, apellidos y credenciales de acceso.
+- `perfilProfesional`: Rol profesional desempeñado.
+- `institucionPertenece`: Institución de adscripción.
+
+### R.I.06. Información de recursos de excavación
+
+Como paleontólogo de campo, quiero consultar y almacenar los datos de los materiales empleados en las excavaciones, para controlar los recursos disponibles.
+
+Los atributos de MaterialExcavación son:
+
+- `idMaterial`: Identificador único del material.
+- `descripcion`: Tipo de herramienta, equipo o recurso.
+- `cantidadDisponibles`: Número de unidades disponibles.
+
+### R.I.07. Información de almacenes y movimientos
+
+Como conservador de colecciones, quiero consultar y almacenar la información de los almacenes y los movimientos de los restos fósiles, para conocer su ubicación y mantener un historial de custodia.
+
+Los atributos de Almacén son:
+
+- `idAlmacen`: Identificador único del almacén.
+- `localizacion`: Dirección o ubicación física.
+- `institucionResponsable`: Institución responsable de su gestión.
+
+Los atributos de MovimientoAlmacén son:
+
+- `idMovimiento`: Identificador único del movimiento.
+- `fechaEntrada`: Fecha de entrada del resto en el almacén.
+- `fechaSalida`: Fecha de salida del resto.
+- `tipoMovimiento`: Tipo de movimiento realizado.
+
+### R.I.08. Información de exposiciones y montajes
+
+Como museógrafo, quiero consultar y almacenar los datos de las exposiciones y los montajes estructurales, para conocer la planificación y el contenido de las muestras.
+
+Los atributos de Exposición son:
+
+- `idExposicion`: Identificador único de la exposición.
+- `nombre`: Denominación de la exposición.
+- `fechas`: Fechas de inicio y finalización.
+- `estado`: Situación actual de la exposición.
+
+Los atributos de MontajeEstructural son:
+
+- `idMontaje`: Identificador único del montaje.
+- `estructuraRepresentada`: Descripción de la estructura anatómica representada.
+
 
 ## 4.1.2. Reglas de negocio
 
-##### R.N.01. Identificación única de registros
+### R.N.01. Identificación única de registros
 
 Cada entidad registrada en el sistema debe disponer de un identificador único que permita distinguirla de las demás entidades del mismo tipo.
 
-##### R.N.02. Trazabilidad de los hallazgos
+**Pruebas de aceptación:**
+- No se permitirá registrar dos entidades del mismo tipo con el mismo identificador.
+- Cada nuevo registro deberá disponer de un identificador válido.
+- Los identificadores de los registros existentes no podrán modificarse de manera que provoquen duplicidades.
 
-Cada hallazgo debe estar vinculado a su procedencia conocida. Cuando se disponga de la información, se debe poder relacionar con el yacimiento, la campaña y la excavación en la que fue descubierto.
+### R.N.02. Coherencia temporal de campañas y excavaciones
 
-##### R.N.03. Integridad de las relaciones
+Las fechas de las campañas y excavaciones deben respetar una secuencia temporal coherente con el desarrollo de las actividades paleontológicas.
 
-Las relaciones entre yacimientos, campañas, excavaciones y personal deben corresponder con los registros existentes en la base de datos. No se deben mostrar asociaciones inexistentes.
+**Pruebas de aceptación:**
+- La fecha de finalización de una campaña no podrá ser anterior a su fecha de inicio.
+- Las fechas de intervención de una excavación deberán encontrarse dentro del periodo de su campaña asociada.
+- No se permitirá registrar intervenciones con fechas incompatibles con el periodo de la campaña.
 
-##### R.N.04. Coherencia de la información de los restos
+### R.N.03. Coherencia temporal de los hallazgos
 
-Cada resto catalogado debe mantener una identificación que permita distinguirlo de los demás y relacionarlo con la información de su descubrimiento y procedencia.
+La fecha de descubrimiento de un hallazgo debe ser compatible con el periodo en el que se desarrolló la excavación correspondiente.
 
-##### R.N.05. Consistencia de la clasificación científica
+**Pruebas de aceptación:**
+- La fecha de descubrimiento no podrá ser anterior al inicio de la campaña en la que se produjo.
+- La fecha de descubrimiento no podrá ser posterior a la finalización de la intervención correspondiente.
+- No se admitirán fechas de descubrimiento futuras.
 
-La clasificación taxonómica y las patologías deben reflejar el estado de conocimiento registrado. Las identificaciones provisionales no deben mostrarse como confirmadas.
+### R.N.04. Identificación y catalogación de restos fósiles
 
-##### R.N.06. Coherencia de las ubicaciones
+Cada resto óseo catalogado debe disponer de un número de catálogo único dentro del sistema, que permita identificarlo de forma individual.
 
-La ubicación mostrada para un resto debe corresponder con su ubicación vigente registrada. Los movimientos anteriores deben conservarse cuando exista un historial de movimientos.
+**Pruebas de aceptación:**
+- No se permitirá asignar el mismo número de catálogo a dos restos diferentes.
+- Todo resto catalogado deberá disponer de un número de catálogo válido.
+- La información científica y descriptiva deberá quedar asociada al resto correspondiente.
 
-##### R.N.07. Control de acceso a la información
+### R.N.05. Consistencia de la clasificación científica
 
-Cada usuario solo podrá consultar la información para la que disponga de autorización, especialmente cuando se trate de datos personales o información restringida de las expediciones.
+Las clasificaciones taxonómicas deben reflejar correctamente su estado de identificación y diferenciar las identificaciones provisionales de las confirmadas.
 
-##### R.N.08. Consistencia de las exposiciones
+**Pruebas de aceptación:**
+- Una clasificación provisional deberá mostrarse como provisional.
+- Una clasificación confirmada deberá mostrarse como confirmada únicamente cuando su estado de identificación así lo indique.
+- No se permitirá establecer un estado de identificación diferente de los valores contemplados por el sistema.
 
-Las exposiciones deben estar relacionadas con los lugares y restos que correspondan según los registros de la base de datos. Su estado debe coincidir con la información almacenada.
+### R.N.06. Coherencia de los movimientos y ubicaciones
+
+Los movimientos de los restos fósiles deben mantener una secuencia temporal coherente y permitir conocer su ubicación vigente.
+
+**Pruebas de aceptación:**
+- La fecha de salida de un almacén no podrá ser anterior a la fecha de entrada.
+- No se permitirá registrar dos ubicaciones vigentes simultáneas para un mismo resto.
+- Un resto no podrá registrar una nueva entrada en un almacén si todavía figura como custodiado en otro.
+- El historial de movimientos anteriores deberá conservarse aunque cambie la ubicación actual.
+
+### R.N.07. Control de acceso a la información
+
+Cada usuario únicamente podrá acceder a las operaciones y datos autorizados según su perfil profesional.
+
+**Pruebas de aceptación:**
+- Un usuario sin permisos de administración no podrá realizar operaciones reservadas al administrador de la base de datos.
+- Los paleontólogos de campo podrán gestionar la información correspondiente a yacimientos, campañas, excavaciones y hallazgos.
+- Los preparadores podrán acceder a las operaciones de preparación y análisis de los restos.
+- Los conservadores podrán gestionar la catalogación, conservación y movimientos de los restos.
+- Los investigadores podrán gestionar la información científica y biométrica.
+- Los museógrafos podrán gestionar las exposiciones y los montajes estructurales.
+- Un usuario no autorizado no podrá modificar ni consultar información restringida.
+
+### R.N.08. Coherencia temporal de las exposiciones
+
+Las fechas y estados de las exposiciones deben ser coherentes con su planificación y desarrollo.
+
+**Pruebas de aceptación:**
+- La fecha de finalización no podrá ser anterior a la fecha de inicio.
+- Una exposición no podrá figurar como activa antes de su fecha de inicio.
+- Una exposición no podrá figurar como finalizada antes de su fecha de cierre.
+- Los estados permitidos serán planificada, activa, finalizada y suspendida.
+- Una exposición suspendida deberá conservar sus fechas y datos de planificación.
+
+### R.N.09. Coherencia de las mediciones biométricas
+
+Las mediciones biométricas deben contener valores válidos y representar correctamente las dimensiones del resto analizado.
+
+**Pruebas de aceptación:**
+- Las dimensiones registradas deberán ser valores numéricos positivos.
+- No se permitirán dimensiones negativas o iguales a cero.
+- Los datos métricos adjuntos deberán corresponder al resto sobre el que se ha realizado el análisis.
+
+### R.N.10. Coherencia de las cantidades de materiales
+
+Las cantidades disponibles de los materiales empleados en las excavaciones deben representar valores válidos de inventario.
+
+**Pruebas de aceptación:**
+- La cantidad disponible no podrá ser negativa.
+- No se permitirán cantidades fraccionarias cuando el material se contabilice en unidades individuales.
+- Las operaciones de actualización del inventario deberán mantener una cantidad válida.
+
+### R.N.11. Coherencia de los datos de identificación profesional
+
+Los datos identificativos y las credenciales del personal deberán cumplir las condiciones establecidas para la identificación y autenticación de los usuarios.
+
+**Pruebas de aceptación:**
+- Los datos obligatorios de identificación deberán estar cumplimentados.
+- No se permitirán credenciales de acceso vacías.
+- Cada cuenta deberá disponer de un perfil profesional válido.
+
 
 ## 4.2. Mapa de historias de usuario
 
-### 4.2. Mapa de historias de usuario
+El siguiente mapa relaciona las funcionalidades principales del sistema con los códigos de sus respectivos requisitos funcionales.
 
-**GESTIÓN DE YACIMIENTOS:**
+### GESTIÓN DE YACIMIENTOS
 
-- Consultar yacimientos
-- Consultar campañas
-- Consultar personal participante
+- Consultar yacimientos registrados — **R.F.01**
+- Consultar campañas de excavación — **R.F.02**
+- Consultar personal participante — **R.F.03**
+- Consultar excavaciones de un yacimiento — **R.F.01**
+- Consultar hallazgos por yacimiento y periodo — **R.F.24**
 
-**GESTIÓN DE HALLAZGOS:**
+### GESTIÓN DE HALLAZGOS
 
-- Consultar hallazgos
-- Consultar procedencia
-- Consultar información del descubrimiento
+- Consultar hallazgos registrados — **R.F.04**
+- Consultar procedencia de los hallazgos — **R.F.05**
+- Consultar información del descubrimiento — **R.F.06**
 
-**CATÁLOGO DE RESTOS:**
+### CATÁLOGO DE RESTOS FÓSILES
 
-- Consultar restos óseos
-- Consultar taxonomía
-- Consultar patologías
+- Consultar restos óseos catalogados — **R.F.07**
+- Consultar clasificación taxonómica — **R.F.08**
+- Consultar patologías y mediciones biométricas — **R.F.09**
+- Consultar restos por especie — **R.F.23**
+- Consultar dinosaurios por país o región — **R.F.21**
 
-**GESTIÓN DE MUSEOS Y EMPRESAS:**
+### GESTIÓN DE MUSEOS Y EMPRESAS
 
-- Consultar museo
-- Consultar almacén
-- Consultar empresa
+- Consultar museos registrados — **R.F.10**
+- Consultar almacenes — **R.F.11**
+- Consultar empresas registradas — **R.F.12**
+- Consultar número de fósiles por museo — **R.F.22**
 
-**GESTIÓN DE EXCAVACIONES:**
+### GESTIÓN DE EXCAVACIONES
 
-- Consultar excavaciones
-- Consultar materiales de excavación
-- Consultar trabajadores
+- Consultar excavaciones — **R.F.13**
+- Consultar materiales de excavación — **R.F.14**
+- Consultar trabajadores participantes — **R.F.15**
 
-**GESTIÓN DEL PERSONAL:**
+### GESTIÓN DEL PERSONAL
 
-- Consultar datos personales
-- Consultar edificios con personal
+- Consultar datos del personal — **R.F.16**
+- Consultar instituciones de pertenencia — **R.F.17**
 
-**GESTIÓN DE EXPOSICIONES:**
+### GESTIÓN DE EXPOSICIONES
 
-- Consultar exposiciones
-- Consultar lugar de exposición
-- Consultar estado de la exposición
+- Consultar exposiciones — **R.F.18**
+- Consultar lugares de exposición — **R.F.19**
+- Consultar estado de las exposiciones — **R.F.20**
+- Consultar restos incluidos en una exposición — **R.F.25**
+- Consultar montajes estructurales asociados — **R.F.18**
+
 
 ## 4.3. Requisitos no funcionales
 
-**R.N.F.01. Usabilidad**
+### R.N.F.01. Usabilidad
 
-Como usuario del sistema,  
-quiero disponer de una interfaz clara e intuitiva,  
-para consultar la información sin necesitar conocimientos técnicos avanzados.
+Como usuario del sistema, quiero disponer de una interfaz clara e intuitiva, para consultar y gestionar la información sin necesitar conocimientos técnicos avanzados.
 
-**R.N.F.02. Rendimiento**
+### R.N.F.02. Rendimiento
 
-Como usuario del sistema,  
-quiero que las consultas devuelvan resultados en un tiempo razonable,  
-para trabajar de forma eficiente.
+Como usuario del sistema, quiero que las consultas y operaciones devuelvan resultados en un tiempo razonable, para trabajar de forma eficiente.
 
-**R.N.F.03. Seguridad**
+### R.N.F.03. Seguridad
 
-Como administrador de la base de datos,  
-quiero que el acceso a la información esté protegido mediante mecanismos de autenticación y autorización,  
-para evitar consultas no permitidas.
+Como administrador de la base de datos, quiero que el acceso a la información esté protegido mediante mecanismos de autenticación y autorización, para evitar accesos y modificaciones no permitidos.
 
-**R.N.F.04. Disponibilidad**
+### R.N.F.04. Disponibilidad
 
-Como usuario autorizado,  
-quiero poder acceder al sistema cuando lo necesite,  
-para consultar la información necesaria para mi trabajo.
+Como usuario autorizado, quiero poder acceder al sistema cuando lo necesite, para consultar la información necesaria para mi trabajo.
 
-**R.N.F.05. Integridad y conservación de los datos**
+### R.N.F.05. Integridad y conservación de los datos
 
-Como administrador de la base de datos,  
-quiero que la información se almacene de forma consistente y disponga de mecanismos de copia de seguridad,  
-para reducir el riesgo de pérdida de información.
+Como administrador de la base de datos, quiero que la información se almacene de forma consistente y disponga de mecanismos de copia de seguridad, para reducir el riesgo de pérdida o corrupción de información.
 
-## Pruebas de aceptación de reglas de negocio
+### R.N.F.06. Mantenibilidad
 
-- **R.N.01:** Al consultar los registros, no deben existir dos entidades del mismo tipo con el mismo identificador único.
-- **R.N.02:** Al consultar un hallazgo, se debe mostrar su procedencia registrada y las relaciones disponibles.
-- **R.N.03:** Al consultar una entidad relacionada, solo deben mostrarse asociaciones existentes y válidas.
-- **R.N.04:** Cada resto debe poder distinguirse de los demás y relacionarse con su procedencia registrada.
-- **R.N.05:** Un resto sin identificación confirmada debe aparecer como provisional o sin identificar, según su estado registrado.
-- **R.N.06:** Al consultar un resto, debe aparecer su ubicación vigente y, si existe, su historial de movimientos.
-- **R.N.07:** Un usuario sin autorización no debe poder acceder a información restringida.
-- **R.N.08:** Al consultar una exposición, sus restos asociados, lugar y estado deben coincidir con los datos registrados.
+Como administrador de la base de datos, quiero que la estructura del sistema permita realizar modificaciones y ampliaciones de forma organizada, para facilitar su mantenimiento y evolución.
+
+### R.N.F.07. Escalabilidad
+
+Como administrador de la base de datos, quiero que el sistema pueda admitir un incremento del número de instituciones, usuarios, yacimientos y restos registrados, para permitir su crecimiento sin afectar significativamente a su funcionamiento.
 
 -- fin entregable 1 --
 
@@ -613,6 +611,7 @@ para reducir el riesgo de pérdida de información.
 ### 5.1. Diagramas de clases UML
 
 - con restricciones.
+<img src="imágenes/IISSI1_Paleontología.drawio.png" align="center">
 
 ### 5.2. Escenarios de prueba
 
