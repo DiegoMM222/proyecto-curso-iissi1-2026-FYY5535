@@ -617,19 +617,59 @@ Como administrador de la base de datos, quiero que el sistema pueda admitir un i
 
 - con descripción textual y diagrama de objetos UML.
 
-## 6. Matrices de trazabilidad
+## 6. Matriz de trazabilidad
 
-- Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
+- Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos de información (RI), requisitos funcionales (RF) y reglas de negocio (RN).
 
-|       | EntidadX   | AsociaciónX  | RestricciónX  | Entidad2 ...   | 
-|:------|:-----------|:-----------|:-----------|:-----------|
-| RI-1  | X          | X          | X          | X          |
-| RI-2  |            | X          |            | X          |
-| RF-1  |            | X          |            | X          |
-| RF-2  | X          |            | X          | X          |
-| RN-1  |            | X          |            |            |
-| RN-2  | X          | X          | X          |            |
-| ...   |            |            |            |            |
+
+| Requisito | Personal | Institución | Museo | Empresa | Yacimiento | Campaña | Excavación | Hallazgo | RestoÓseo | ClasificaciónTaxonómica | Patología | MediciónBiométrica | MaterialExcavacion | Almacén | MovimientoAlmacén | Exposición | MontajeEstructural | Personal–Institución | Personal–Campaña | Institución–Museo | Institución–Empresa | Yacimiento–Campaña | Empresa–Campaña | Campaña–Excavación | Excavación–MaterialExcavacion | Excavación–Hallazgo | Hallazgo–RestoÓseo | RestoÓseo–Almacén | MovimientoAlmacén–Almacén | MovimientoAlmacén–RestoÓseo | Exposición–RestoÓseo | Exposición–MontajeEstructural | MontajeEstructural–RestoÓseo | RestoÓseo–Patología | RestoÓseo–MediciónBiométrica | RestoÓseo–ClasificaciónTaxonómica | Claves primarias únicas | Multiplicidades UML | Fechas y periodos | Número de catálogo único | Estado taxonómico válido | Ubicación y movimientos coherentes | Roles y permisos | Estado y fechas de exposición | Mediciones positivas | Cantidades no negativas | Datos personales válidos |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| RI-01 |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RI-02 |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RI-03 |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RI-04 |  |  |  |  |  |  |  |  | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |
+| RI-05 | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RI-06 |  |  |  |  |  |  | X |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RI-07 |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RI-08 |  |  | X |  |  |  |  |  | X |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-01 |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-02 | X |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-03 | X |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-04 | X |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-05 |  |  |  |  | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-06 | X |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-07 |  |  |  |  |  |  |  | X | X | X | X | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |
+| RF-08 |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |
+| RF-09 |  |  |  |  |  |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-10 |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-11 |  | X |  |  |  |  |  |  | X |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-12 | X | X |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  | X |  |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-13 |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-14 |  |  |  |  |  |  | X |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-15 | X |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-16 | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-17 | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-18 |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-19 |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-20 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-21 |  |  |  |  | X |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  | X |  | X |  | X | X |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |
+| RF-22 |  | X | X |  |  |  |  |  | X |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-23 |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |
+| RF-24 |  |  |  |  | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-25 |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RF-26 |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| RN-01 | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |
+| RN-02 |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |
+| RN-03 |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |
+| RN-04 |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |
+| RN-05 |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |
+| RN-06 |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |
+| RN-07 | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |
+| RN-08 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  | X |  |  |  |
+| RN-09 |  |  |  |  |  |  |  |  | X |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  | X |  |  |
+| RN-10 |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |
+| RN-11 | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |
+
 
 -- fin entregable 2 --
 
