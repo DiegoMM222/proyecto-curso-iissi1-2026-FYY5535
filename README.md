@@ -615,7 +615,22 @@ Como administrador de la base de datos, quiero que el sistema pueda admitir un i
 
 ### 5.2. Escenarios de prueba
 
-- con descripción textual y diagrama de objetos UML.
+CP-01: Registro y vinculación exitosa de Yacimiento, Campaña y Excavación
+
+CP-02: Rechazo por inconsistencia temporal entre Excavación y Campaña
+
+CP-03: Catalogación de Hallazgo, Resto Óseo, Taxonomía, Patología y Biometría
+
+CP-04: Rechazo por dimensión biométrica con valor no positivo
+
+CP-05: Traslado de pieza entre almacenes y trazabilidad de custodia
+
+CP-06: Rechazo por fecha de salida anterior a la fecha de entrada
+
+CP-07: Configuración de Exposición, Montaje Estructural y Restos Exhibidos
+
+CP-08: Denegación de modificación de datos institucionales por rol no autorizado
+
 
 ## 6. Matriz de trazabilidad
 
