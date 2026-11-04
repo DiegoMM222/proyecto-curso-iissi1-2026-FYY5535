@@ -608,12 +608,12 @@ Como administrador de la base de datos, quiero que el sistema pueda admitir un i
 
 ## 5. Modelo conceptual
 
-### 5.1. Diagramas de clases UML
+## 5.1. Diagramas de clases UML
 
 - con restricciones.
 <img src="imágenes/IISSI1_Paleontología.drawio.png" align="center">
 
-### 5.2. Escenarios de prueba
+## 5.2. Escenarios de prueba
 
 ### CP-01: Registro y vinculación exitosa de Yacimiento, Campaña y Excavación
  - Requisitos cubiertos: R.F.01, R.F.02, R.F.13, R.N.01, R.N.02.
