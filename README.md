@@ -611,7 +611,7 @@ Como administrador de la base de datos, quiero que el sistema pueda admitir un i
 ## 5.1. Diagramas de clases UML
 
 - con restricciones.
-<img src="imágenes/DiagramaUML_Paleontologia.png" align="center">
+<img src="imágenes/DiagramaUML_Paleontología.png" align="center">
 
 ## 5.2. Escenarios de prueba
 
