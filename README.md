@@ -618,34 +618,42 @@ Como administrador de la base de datos, quiero que el sistema pueda admitir un i
 ### CP-01: Registro y vinculación exitosa de Yacimiento, Campaña y Excavación
  - Requisitos cubiertos: R.F.01, R.F.02, R.F.13, R.N.01, R.N.02.
  - Resultado esperado: Los objetos se crean y se enlazan correctamente. Se verifica que las fechas de las excavaciones estén dentro del intervalo de las fechas de la campaña y que cada identificador sea único.
+<img src="imágenes/CP-01.drawio.png" align="center">
 
 ### CP-02: Rechazo por inconsistencia temporal entre Excavación y Campaña
  - Requisitos cubiertos: R.F.02, R.F.13, R.N.02.
  - Resultado esperado: El sistema cancela la creación del objeto "Excavacion" y envía un mensaje de error.
+<img src="imágenes/CP-02.drawio.png" align="center">
 
 ### CP-03: Catalogación de Hallazgo, Resto Óseo, Taxonomía, Patología y Biometría
  - Requisitos cubiertos: R.F.04, R.F.07, R.F.08, R.F.09, R.N.03, R.N.04, R.N.05, R.N.09.
  - Resultado esperado: El sistema verifica que la fecha del descubrimiento pertenezca al intervalos de fecha de la excavación y que las mediciones tengan valores positivos.
+<img src="imágenes/CP-03.drawio.png" align="center">
  
 ### CP-04: Rechazo por dimensión biométrica con valor no positivo
  - Requisitos cubiertos: R.F.09, R.N.09.
  - Resultado esperado: El sistema cancela la creación del objeto "MedicionBiometrica" debido a que las mediciones tienen valores negativos.
- 
+ <img src="imágenes/CP-04.drawio.png" align="center">
+
 ### CP-05: Traslado de pieza entre almacenes y trazabilidad de custodia
  - Requisitos cubiertos: R.F.11, R.F.26, R.N.06.
  - Resultado esperado: La ubicación actual del objeto se modifica a "ALM-02", se verifica que la fecha de salida no sea anterior a la fecha de entrada dento del objeto "mov101" y que la facha de salida del objeto "mov101" sea anterior a la fecha de entrada de "mov102".
- 
+ <img src="imágenes/CP-05.drawio.png" align="center">
+
 ### CP-06: Rechazo por fecha de salida anterior a la fecha de entrada
  - Requisitos cubiertos: R.F.26, R.N.06.
  - Resultado esperado: El sistema envía un mensaje de error indicando que la fecha de salida no puede ser anterior a la fecha de entrada.
- 
+ <img src="imágenes/CP-06.drawio.png" align="center">
+
 ### CP-07: Configuración de Exposición, Montaje Estructural y Restos Exhibidos
  - Requisitos cubiertos: R.F.10, R.F.18, R.F.19, R.F.20, R.F.25, R.N.08.
  - Resultado esperado: El estado de la exposición se actualiza a activo y el sistema verifica que no haya conflictos temporales entre los objetos.
- 
+ <img src="imágenes/CP-07.drawio.png" align="center">
+
 ### CP-08: Denegación de modificación de datos institucionales por rol no autorizado
  - Requisitos cubiertos: R.F.16, R.N.07, R.N.11.
  - Resultado esperado: El sistema deniega la petición debido a que el rol no tiene los privilegios requeridos para modificar los datos.
+<img src="imágenes/CP-08.drawio.png" align="center">
 
 ## 6. Matriz de trazabilidad
 
